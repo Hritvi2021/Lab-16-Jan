@@ -47,6 +47,25 @@ STEP-5
  
  # Push Local Commits to Remote GitHub Repository
  1. Push the changes: git push -u origin master (or main if your default branch is main)
+    <img width="1366" height="768" alt="Screenshot (25)" src="https://github.com/user-attachments/assets/c9de3f61-3501-4d63-a409-7a186f3aedd5" />
+
+STEP-6
+
+# Create a New Branch, Make Changes, and Merge
+1. Create a new branch: git branch feature/new-feature
+2. Switch to the new branch: git checkout feature/new-feature
+3. Make changes: echo "New feature" > file2.txt
+4. Add and commit the changes: git add . and git commit -m "Add new feature"
+5. Switch back to the main branch: git checkout master (or main)
+6. Merge the changes: git merge feature/new-feature
+7. Delete the feature branch: git branch -d feature/new-feature
+<img width="1366" height="768" alt="Screenshot (26)" src="https://github.com/user-attachments/assets/96f20aea-3bb0-4558-b62b-0651c79d9dca" />
+
+STEP-7
+
+1. Practice Rollback1. Check the commit log: git log
+2. Reset to a previous commit: git reset <commit-hash> (use --soft or --hard options as needed)
+3. Checkout a previous commit: git checkout <commit-hash> (use -b option to create a new branch)
 
 
 
