@@ -36,10 +36,18 @@ STEP-3
 <img width="1366" height="768" alt="Screenshot (23)" src="https://github.com/user-attachments/assets/1a337ac6-6a7c-418a-8231-5ead54c4a5dc" />
 
 STEP-4 
+
 # Create a GitHub Repository and Link with Local Repo
 1. Create a new repository on GitHub: Lab-16-Jan
 2. Copy the SSH or HTTPS URL: git@github.com:your-username/my-git-repo.git or https://github.com/your-username/my-git-repo.git
 3. Link the local repository to GitHub: git remote add origin <URL>
+<img width="1366" height="768" alt="Screenshot (24)" src="https://github.com/user-attachments/assets/a4d9698b-4a52-4375-89cf-91c7a578b41c" />
+
+STEP-5
+ 
+ # Push Local Commits to Remote GitHub Repository
+ 1. Push the changes: git push -u origin master (or main if your default branch is main)
+
 
 
 
