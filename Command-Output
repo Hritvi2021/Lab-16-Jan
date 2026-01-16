@@ -1,0 +1,36 @@
+bash
+# Initialize a new Git repository
+git init
+
+# Configure username and email
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+
+# Create a new file and add it to staging
+touch file1.txt
+git add file1.txt
+
+# Commit the file
+git commit -m "Initial commit"
+
+# Create a new branch and switch to it
+git branch feature/new-feature
+git checkout feature/new-feature
+
+# Make changes and commit
+echo "New feature" > file2.txt
+git add .
+git commit -m "Add new feature"
+
+# Switch back to the main branch and merge
+git checkout master
+git merge feature/new-feature
+
+# Delete the feature branch
+git branch -d feature/new-feature
+
+# Check the commit log
+git log
+
+# Reset to a previous commit
+git reset <commit-hash>
